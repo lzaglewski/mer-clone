@@ -11,6 +11,7 @@ retract (
 
 require (
 	github.com/dgraph-io/ristretto v0.1.1
+	github.com/go-sql-driver/mysql v1.8.1
 	github.com/gofrs/uuid v4.4.0+incompatible
 	github.com/golang-jwt/jwt/v5 v5.2.1
 	github.com/gorilla/handlers v1.5.2
@@ -31,6 +32,7 @@ require (
 )
 
 require (
+	filippo.io/edwards25519 v1.1.0 // indirect
 	github.com/MauriceGit/skiplist v0.0.0-20211105230623-77f5c8d3e145 // indirect
 	github.com/RoaringBitmap/roaring v1.9.4 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect

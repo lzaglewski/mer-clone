@@ -4,8 +4,8 @@ allow_anonymous: true
 #cert_file: fixtures/tls/server.crt
 #key_file: fixtures/tls/server.key
 cors_allowed_origins: [http://localhost:3000, http://localhost:3001, http://localhost:5000, http://localhost:8000]
-transport_url: bolt://update.db
-jwt_key: '!ChangeThisMercureHubJWTSecretKey!'
+transport_url: mysql://?dsn=example:example@tcp(localhost:3306)/mercure
+jwt_key: your-256-bit-secret
 publish_allowed_origins: [http://localhost:3000, http://localhost:3001, http://localhost:5000, http://localhost:8000]
 subscriptions: true
 
