@@ -1,0 +1,12 @@
+*.db
+*.pyc
+__pycache__
+dist
+/caddy/caddy
+/caddy/mercure/mercure
+/caddy/mercure/__debug_bin
+/cmd/mercure/mercure
+/certs
+/spec/mercure.html
+/spec/mercure.txt
+/spec/mercure.xml
